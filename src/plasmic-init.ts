@@ -34,6 +34,9 @@ import {
   indexerViewMeta,
   IndexerListMeta,
 
+  CustomForm,
+  customFormMeta,
+
   // Gmx,
   // ZKEVM,
   // CustomProp,
@@ -49,6 +52,8 @@ export const PLASMIC = initPlasmicLoader({
     ],
     preview: process.env.NODE_ENV === 'development',
 })
+
+PLASMIC.registerComponent(CustomForm, customFormMeta)
 
 // Register UI
 PLASMIC.registerComponent(Img, imgMeta)

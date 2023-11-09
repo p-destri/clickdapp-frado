@@ -8,6 +8,7 @@ export * from './generic'
 export * from './indexer'
 export * from './balance'
 export * from './web3connect'
+export * from './form'
 
 // // A code component that just renders the prop
 // export const CodeComponent = (props) => {
