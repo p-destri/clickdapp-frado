@@ -3,7 +3,7 @@ import { VmComponent } from '@/components/vm/VmComponent';
 import { useVMContext } from '@/vm-context';
 
 export const customFormMeta: any = {
-  name: 'bos-custmo-form',
+  name: 'bos-custom-form',
   importName: 'CustomForm',
   displayName: '[BOS] CustomForm',
   importPath: '@/components/code',
