@@ -63,6 +63,7 @@ PLASMIC.registerComponent(Input, inputMeta)
 PLASMIC.registerComponent(Button, buttonMeta)
 PLASMIC.registerComponent(Balance, balanceMeta)
 PLASMIC.registerComponent(Checkbox, checkboxMeta)
+PLASMIC.registerComponent(CustomForm, customFormMeta)
 
 // Register Liquity components
 PLASMIC.registerComponent(Borrow, borrowMeta)
