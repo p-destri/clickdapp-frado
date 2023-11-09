@@ -12,6 +12,7 @@ import type { NextPageWithLayout } from '@/utils/types';
 // import { connect, keyStores, KeyPair, providers } from "near-api-js";
 // import { Buffer } from "buffer";
 
+import { MainHeader } from '../MainHeader';
 
 // export const viewFunction = async (
 //   nodeUrl: string,
@@ -50,6 +51,8 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
 
   return (
     <div>
+      <MainHeader />
+
       <VmInitializer />
 
       <Component {...pageProps} />
